@@ -1,0 +1,10 @@
+.item-container {
+  display: flex;
+  margin-top: 2px;
+  width: 100%;
+
+  .item-cells {
+    display: flex;
+    align-items: center;
+  }
+}

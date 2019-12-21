@@ -1,0 +1,22 @@
+.calculation-result {
+  cursor: pointer;
+}
+
+.editor-modal {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.editor-container {
+  display: flex;
+  flex-direction: column;
+
+  .editor-input {
+    margin-top: 10px;
+  }
+}
